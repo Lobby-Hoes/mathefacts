@@ -2,6 +2,12 @@ body {
   font-family: sans-serif;
 }
 
+.center {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --light: #CEC9C8;

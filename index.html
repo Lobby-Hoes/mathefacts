@@ -49,12 +49,12 @@
                 {data: 'id'},
                 {data: 'name'},
                 {data: 'faktthema'},
-                {data: 'fakt'},
+                {data: 'beschreibung'},
                 {data: 'startzeit'},
                 {data: 'endzeit'},
                 {
                     data: null, render: function (data, type, row) {
-                        const diff = new Date(new Date("1970-1-1 00:" + data["endzeit"]) - new Date("1970-1-1 00:" + data["startzeit"]));
+                        const diff = new Date(new Date("1970-1-1 " + data["endzeit"]) - new Date("1970-1-1 " + data["startzeit"]));
                         return (diff.getMinutes() + ":" + diff.getSeconds())
                     }
                 }

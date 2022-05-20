@@ -1,87 +1,47 @@
 <html lang="de">
 <head>
     <title>Mathefacts</title>
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.0/css/jquery.dataTables.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script type="text/javascript" charset="utf8"
-            src="https://cdn.datatables.net/1.12.0/js/jquery.dataTables.js"></script>
+
+    <!-- data tables -->
+    <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" type="text/css">
+    <script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest" type="text/javascript"></script>
+
+    <!-- time calculation -->
     <script src="https://unpkg.com/dayjs@1.11.2/dayjs.min.js"></script>
     <script src="https://unpkg.com/dayjs@1.11.2/plugin/duration.js"></script>
     <script src="https://unpkg.com/dayjs@1.11.2/plugin/customParseFormat.js"></script>
 </head>
 <body>
 <h1>Mathefacts</h1>
-<table id="mathefacts" class="display" style="width:100%">
+<table id="mathefacts" style="width:100%">
     <thead>
-    <tr>
-        <th>Folge</th>
-        <th>Folgentitel</th>
-        <th>Faktthema</th>
-        <th>Fakt</th>
-        <th>Startzeit</th>
-        <th>Endzeit</th>
-        <th>Dauer</th>
-    </tr>
+        <tr>
+            <th>Folge</th>
+            <th>Folgentitel</th>
+            <th>Faktthema</th>
+            <th>Fakt</th>
+            <th>Startzeit</th>
+            <th>Endzeit</th>
+            <th>Dauer</th>
+        </tr>
     </thead>
-    <tfoot>
-    <tr>
-        <th>Folge</th>
-        <th>Folgentitel</th>
-        <th>Faktthema</th>
-        <th>Fakt</th>
-        <th>Startzeit</th>
-        <th>Endzeit</th>
-        <th>Dauer</th>
-    </tr>
-    </tfoot>
 </table>
 <script type="text/javascript">
     dayjs.extend(window.dayjs_plugin_duration);
     dayjs.extend(window.dayjs_plugin_customParseFormat);
 
-    $(document).ready(function () {
-
-        // Setup - add a text input to each footer cell
-        $('#mathefacts tfoot th').each(function () {
-            var title = $(this).text();
-            $(this).html('<input type="text" placeholder="Suche ' + title + '" />');
-        });
-
-        // DataTable
-        var table = $('#mathefacts').DataTable({
-            responsive: true,
-            ajax: 'data.json',
-            columns: [
-                {data: 'id'},
-                {data: 'name'},
-                {data: 'faktthema'},
-                {data: 'beschreibung'},
-                {data: 'startzeit'},
-                {data: 'endzeit'},
-                {
-                    data: null, render: function (data, type, row) {
-                        const {startzeit, endzeit} = data;
-                        const [start, end] = [startzeit, endzeit].map(el => dayjs(el, "hh:mm:ss"));
-                        const diff = dayjs.duration(end.diff(start));
-                        return diff.format("mm:ss");
-                    }
-                }
-            ],
-            initComplete: function () {
-                // Apply the search
-                this.api()
-                    .columns()
-                    .every(function () {
-                        var that = this;
-
-                        $('input', this.footer()).on('keyup change clear', function () {
-                            if (that.search() !== this.value) {
-                                that.search(this.value).draw();
-                            }
-                        });
-                    });
-            }
-        });
+    document.addEventListener("DOMContentLoaded", () => {
+        let table = new simpleDatatables.DataTable(document.getElementById("mathefacts"));
+        fetch("./data.json")
+            .then(data => data.json())
+            .then(data => {
+                let insertData = data.data.map(({id, name, faktthema, beschreibung, startzeit, endzeit}) => {
+                    let [start, end] = [startzeit, endzeit].map(el => dayjs(el, "hh:mm:ss"));
+                    let diff = dayjs.duration(end.diff(start));
+                    return [id, name, faktthema, beschreibung, startzeit, endzeit, diff.format("mm:ss")];
+                });
+                table.rows().add(insertData);
+            });
     });
 </script>
 </body>

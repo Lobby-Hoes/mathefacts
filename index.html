@@ -10,6 +10,9 @@
     <script src="https://unpkg.com/dayjs@1.11.2/dayjs.min.js"></script>
     <script src="https://unpkg.com/dayjs@1.11.2/plugin/duration.js"></script>
     <script src="https://unpkg.com/dayjs@1.11.2/plugin/customParseFormat.js"></script>
+
+    <!-- custom code -->
+    <script src="./index.js"></script>
 </head>
 <body>
 <h1>Mathefacts</h1>
@@ -26,24 +29,6 @@
         </tr>
     </thead>
 </table>
-<script type="text/javascript">
-    dayjs.extend(window.dayjs_plugin_duration);
-    dayjs.extend(window.dayjs_plugin_customParseFormat);
-
-    document.addEventListener("DOMContentLoaded", () => {
-        let table = new simpleDatatables.DataTable(document.getElementById("mathefacts"));
-        fetch("./data.json")
-            .then(data => data.json())
-            .then(data => {
-                let insertData = data.data.map(({id, name, faktthema, beschreibung, startzeit, endzeit}) => {
-                    let [start, end] = [startzeit, endzeit].map(el => dayjs(el, "hh:mm:ss"));
-                    let diff = dayjs.duration(end.diff(start));
-                    return [id, name, faktthema, beschreibung, startzeit, endzeit, diff.format("mm:ss")];
-                });
-                table.rows().add(insertData);
-            });
-    });
-</script>
 </body>
 </html>
 

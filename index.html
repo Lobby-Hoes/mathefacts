@@ -4,11 +4,10 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.0/css/jquery.dataTables.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.12.0/js/jquery.dataTables.js"></script>
-    <script type="text/javascript" charset="utf8" src="/script.js"></script>
 </head>
 <body>
 <h1>Mathefacts</h1>
-<table id="example" class="display" style="width:100%">
+<table id="mathefacts" class="display" style="width:100%">
     <thead>
     <tr>
         <th>Folge</th>
@@ -20,7 +19,56 @@
         <th>Dauer</th>
     </tr>
     </thead>
+    <tfoot>
+    <tr>
+        <th>Folge</th>
+        <th>Folgentitel</th>
+        <th>Faktthema</th>
+        <th>Fakt</th>
+        <th>Startzeit</th>
+        <th>Endzeit</th>
+        <th>Dauer</th>
+    </tr>
+    </tfoot>
 </table>
+<script type="text/javascript">
+    $(document).ready(function () {
+
+        // Setup - add a text input to each footer cell
+        $('#mathefacts tfoot th').each(function () {
+            var title = $(this).text();
+            $(this).html('<input type="text" placeholder="Suche ' + title + '" />');
+        });
+
+        // DataTable
+        var table = $('#mathefacts').DataTable({
+            ajax: 'data.json',
+            columns: [
+                { data: 'id' },
+                { data: 'name' },
+                { data: 'faktthema' },
+                { data: 'fakt' },
+                { data: 'startzeit' },
+                { data: 'endzeit' },
+                { data: 'dauer' },
+            ],
+            initComplete: function () {
+                // Apply the search
+                this.api()
+                    .columns()
+                    .every(function () {
+                        var that = this;
+
+                        $('input', this.footer()).on('keyup change clear', function () {
+                            if (that.search() !== this.value) {
+                                that.search(this.value).draw();
+                            }
+                        });
+                    });
+            },
+        });
+    });
+</script>
 </body>
 </html>
 

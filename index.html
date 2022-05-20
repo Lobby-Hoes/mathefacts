@@ -5,6 +5,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script type="text/javascript" charset="utf8"
             src="https://cdn.datatables.net/1.12.0/js/jquery.dataTables.js"></script>
+    <script src="https://unpkg.com/dayjs@1.11.2/dayjs.min.js"></script>
+    <script src="https://unpkg.com/dayjs@1.11.2/plugin/duration.js"></script>
+    <script src="https://unpkg.com/dayjs@1.11.2/plugin/customParseFormat.js"></script>
 </head>
 <body>
 <h1>Mathefacts</h1>
@@ -33,9 +36,8 @@
     </tfoot>
 </table>
 <script type="text/javascript">
-    function str_pad_left(string, pad, length) {
-        return (new Array(length + 1).join(pad) + string).slice(-length);
-    }
+    dayjs.extend(window.dayjs_plugin_duration);
+    dayjs.extend(window.dayjs_plugin_customParseFormat);
 
     $(document).ready(function () {
 
@@ -58,8 +60,10 @@
                 {data: 'endzeit'},
                 {
                     data: null, render: function (data, type, row) {
-                        const diff = new Date(new Date("1970-1-1 " + data["endzeit"]) - new Date("1970-1-1 " + data["startzeit"]));
-                        return str_pad_left(diff.getMinutes(), '0', 2) + ':' + str_pad_left(diff.getSeconds(), '0', 2);
+                        const {startzeit, endzeit} = data;
+                        const [start, end] = [startzeit, endzeit].map(el => dayjs(el, "hh:mm:ss"));
+                        const diff = dayjs.duration(end.diff(start));
+                        return diff.format("mm:ss");
                     }
                 }
             ],

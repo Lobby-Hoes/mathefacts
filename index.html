@@ -3,7 +3,8 @@
     <title>Mathefacts</title>
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.0/css/jquery.dataTables.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.12.0/js/jquery.dataTables.js"></script>
+    <script type="text/javascript" charset="utf8"
+            src="https://cdn.datatables.net/1.12.0/js/jquery.dataTables.js"></script>
 </head>
 <body>
 <h1>Mathefacts</h1>
@@ -42,15 +43,21 @@
 
         // DataTable
         var table = $('#mathefacts').DataTable({
+            responsive: true,
             ajax: 'data.json',
             columns: [
-                { data: 'id' },
-                { data: 'name' },
-                { data: 'faktthema' },
-                { data: 'fakt' },
-                { data: 'startzeit' },
-                { data: 'endzeit' },
-                { data: 'dauer' },
+                {data: 'id'},
+                {data: 'name'},
+                {data: 'faktthema'},
+                {data: 'fakt'},
+                {data: 'startzeit'},
+                {data: 'endzeit'},
+                {
+                    data: null, render: function (data, type, row) {
+                        const diff = new Date(new Date("1970-1-1 00:" + data["endzeit"]) - new Date("1970-1-1 00:" + data["startzeit"]));
+                        return (diff.getMinutes() + ":" + diff.getSeconds())
+                    }
+                }
             ],
             initComplete: function () {
                 // Apply the search
@@ -65,7 +72,7 @@
                             }
                         });
                     });
-            },
+            }
         });
     });
 </script>

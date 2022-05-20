@@ -33,6 +33,10 @@
     </tfoot>
 </table>
 <script type="text/javascript">
+    function str_pad_left(string, pad, length) {
+        return (new Array(length + 1).join(pad) + string).slice(-length);
+    }
+
     $(document).ready(function () {
 
         // Setup - add a text input to each footer cell
@@ -55,7 +59,7 @@
                 {
                     data: null, render: function (data, type, row) {
                         const diff = new Date(new Date("1970-1-1 " + data["endzeit"]) - new Date("1970-1-1 " + data["startzeit"]));
-                        return (diff.getMinutes() + ":" + diff.getSeconds())
+                        return str_pad_left(diff.getMinutes(), '0', 2) + ':' + str_pad_left(diff.getSeconds(), '0', 2);
                     }
                 }
             ],

@@ -299,50 +299,58 @@
     {
       "id": "38",
       "name": "Sie gab mir Starthilfe beim Kotzen - bäh.",
-      "faktthema": "",
-      "beschreibung": "",
-      "startzeit": "00:00:00",
-      "endzeit": "00:00:00"
+      "faktthema": "Das kann doch kein Zufall sein…",
+      "beschreibung": "Etwas wird als kein Zufall betitelt, da Menschen in Informationen Muster erkennen. Noch dazu erkennt man eher eine Bestätigung, als ein Widerspruch und wertet diese stärker. Wenn etwas im Einzelfall unwahrscheinlich ist, ist es aufs Allgemeine sehr wahrscheinlich",
+      "startzeit": "´01:02:08",
+      "endzeit": "01:15:33"
     },
     {
       "id": "39",
       "name": "Wir alle haben kleine NeoN4z!s im Blut",
-      "faktthema": "",
-      "beschreibung": "",
-      "startzeit": "00:00:00",
-      "endzeit": "00:00:00"
+      "faktthema": "Geschichte der Lichtgeschwindigkeit",
+      "beschreibung": "Hippolyte Fizeau hat mit einem Zahnrad und einem Spiegel die Lichtgeschwindigkeit sehr nahe bestimmt. Sie ist außerdem konstant",
+      "startzeit": "00:45:48",
+      "endzeit": "01:10:21"
     },
     {
       "id": "40",
       "name": "Angina Merkel ist 27 Schwanz groß",
-      "faktthema": "",
-      "beschreibung": "",
-      "startzeit": "00:00:00",
-      "endzeit": "00:00:00"
+      "faktthema": "Wer sagt, was ein Meter ist",
+      "beschreibung": "Der Meter ist abgeleitet von Strahlung eines bestimmten Atoms. Die ist immer gleich",
+      "startzeit": "00:51:22",
+      "endzeit": "01:06:34"
     },
     {
       "id": "41",
       "name": "Sex mit Lobbyhoes  > > > ",
-      "faktthema": "",
-      "beschreibung": "",
-      "startzeit": "00:00:00",
-      "endzeit": "00:00:00"
+      "faktthema": "Das Großvater-Paradoxon",
+      "beschreibung": "Pardoxon, das sich mit Änderungen der Zeitlinie bei Zeitreisen beschäftigt",
+      "startzeit": "00:45:23",
+      "endzeit": "00:58:17"
     },
     {
       "id": "42",
       "name": "Pastor shootet auf Kinder",
-      "faktthema": "",
-      "beschreibung": "",
-      "startzeit": "00:00:00",
-      "endzeit": "00:00:00"
+      "faktthema": "Schaltjahre",
+      "beschreibung": "Die Römer hatten 10 Monate, haben zwei dazugenommen und bei dem einem mal ein paar mehr und mal ein paar weniger Tage gezählt",
+      "startzeit": "00:39:43",
+      "endzeit": "00:53:20"
     },
     {
       "id": "43",
       "name": "Böhmi wir sind clean, Ehrenwort!!!",
-      "faktthema": "",
-      "beschreibung": "",
-      "startzeit": "00:00:00",
-      "endzeit": "00:00:00"
+      "faktthema": "Generieren von Informationen durch einen Brute-Force Ansatz",
+      "beschreibung": "Eine Bücherei in der jede mögliche Zeichenfolge generiert werden kann und eine Festplatte auf der jede mögliche Melodie generiert wird",
+      "startzeit": "00:52:37",
+      "endzeit": "01:04:09"
+    },
+    {
+      "id": "44",
+      "name": "Eichelkäse am Hodensack",
+      "faktthema": "Summe aller natürlichen Zahlen",
+      "beschreibung": "Die Summe aller natürlichen Zahlen ist -1/12",
+      "startzeit": "01:06:34",
+      "endzeit": "01:07:27"
     }
   ]
 }

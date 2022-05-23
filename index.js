@@ -6,10 +6,10 @@ document.addEventListener("DOMContentLoaded", () => {
   fetch("./data.json")
     .then(data => data.json())
     .then(data => {
-      let insertData = data.data.map(({id, name, faktthema, beschreibung, startzeit, endzeit}) => {
+      let insertData = data.data.map(({folge, name, faktthema, beschreibung, startzeit, endzeit}) => {
         let [start, end] = [startzeit, endzeit].map(el => dayjs(el, "hh:mm:ss"));
         let diff = dayjs.duration(end.diff(start));
-        return [id, name, faktthema, beschreibung, startzeit, endzeit, diff.format("mm:ss")];
+        return [folge, name, faktthema, beschreibung, startzeit, endzeit, diff.format("mm:ss")];
       });
       table.rows().add(insertData);
     });

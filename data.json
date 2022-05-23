@@ -1,7 +1,7 @@
 {
   "data": [
     {
-      "id": "1",
+      "folge": "1",
       "name": "Hobbylos: Die Geburt",
       "faktthema": "",
       "beschreibung": "",
@@ -9,7 +9,7 @@
       "endzeit": "00:00:00"
     },
     {
-      "id": "2",
+      "folge": "2",
       "name": "Die alte Hure",
       "faktthema": "",
       "beschreibung": "",
@@ -17,7 +17,7 @@
       "endzeit": "00:00:00"
     },
     {
-      "id": "3",
+      "folge": "3",
       "name": "Tequila Shots und Tinder Dates",
       "faktthema": "(über-)abzählbare Unendlichkeit",
       "beschreibung": "Es existieren Unendlichkeiten die größer sind als andere Unendlichkeiten",
@@ -25,7 +25,7 @@
       "endzeit": "00:11:50"
     },
     {
-      "id": "4",
+      "folge": "4",
       "name": "Glied im Penis",
       "faktthema": "Gödelscher Unvollständigkeitssatz",
       "beschreibung": "Es gibt in jedem Mathematischen System Ausagen, die nicht bewiesen und auch nicht widerlegt werden können.",
@@ -33,7 +33,7 @@
       "endzeit": "00:42:31"
     },
     {
-      "id": "5",
+      "folge": "5",
       "name": "Spannen, Schmusen und Scheiden",
       "faktthema": "52!",
       "beschreibung": "Fakultät erklärt am Beispiel der Kombinationsmöglichkeiten eines Kartenspiels",
@@ -41,7 +41,7 @@
       "endzeit": "00:29:55"
     },
     {
-      "id": "6",
+      "folge": "6",
       "name": "Der kleine Chinese auf dem Dreirad",
       "faktthema": "Sampling bias am Beispiel des Freundschaftsparadox",
       "beschreibung": "Der durchschnittliche Facebook Freund hat mehr Freunde als der durchschnittliche Facebook User",
@@ -49,7 +49,7 @@
       "endzeit": "00:31:42"
     },
     {
-      "id": "7",
+      "folge": "7",
       "name": "Fanatische Fans und Dirty Griechen",
       "faktthema": "Satz des Pythagoras geklaut?",
       "beschreibung": "Die Griechen haben lediglich den berühmten Satz zum ersten mal allgemein bewiesen. Euklied war hierbei der erste bekannte.",
@@ -57,7 +57,7 @@
       "endzeit": "00:26:17"
     },
     {
-      "id": "8",
+      "folge": "8",
       "name": "Milf Hunter GmbH",
       "faktthema": "Millennium-Probleme / die Poincaré-Vermutung",
       "beschreibung": "Jede einfach zusammenhängende, kompakte, unberandete, 3-dimensionale Mannigfaltigkeiten ist homöomorph  zur 3-Sphäre.",
@@ -65,7 +65,7 @@
       "endzeit": "00:57:42"
     },
     {
-      "id": "9",
+      "folge": "9",
       "name": "Menschen Lutschen",
       "faktthema": "Satz von Borsuk-Ulam",
       "beschreibung": "Zwei Punkte die in genau entgegengesetzten Richtungen vom Mittelpunkt einer n-Sphäre in den n-dimensionalen euklidischen Raum entfehrnt liegen, sind bei stetigen Funktionen gleich.",
@@ -73,7 +73,7 @@
       "endzeit": "00:24:57"
     },
     {
-      "id": "10",
+      "folge": "10",
       "name": "Apropos N4z!s",
       "faktthema": "Survivorship Bias",
       "beschreibung": "Erfolgreiche Zustände sind stärker sichtbar sind als nicht erfolgreiche und werden deshalb systemtisch überschätzt.",
@@ -81,7 +81,7 @@
       "endzeit": "00:55:33"
     },
     {
-      "id": "11",
+      "folge": "11",
       "name": "Ju wurde verhaftet",
       "faktthema": "Visualisierung der Fakultät von 52",
       "beschreibung": "Visualisierung der Fakultät von 52",
@@ -89,7 +89,7 @@
       "endzeit": "00:48:30"
     },
     {
-      "id": "12",
+      "folge": "12",
       "name": "Ihre Körper voller Öl",
       "faktthema": "Fixpunktsatz von Banach",
       "beschreibung": "Auf einer Karte der Umgebung gibt es einen Punkt, der mit dem direkt darunter liegenden Punkt in der realen Welt übereinstimmt.",
@@ -97,7 +97,7 @@
       "endzeit": "00:48:20"
     },
     {
-      "id": "13",
+      "folge": "13",
       "name": "Sattel mit Pimmel verkauft",
       "faktthema": "Fliesen in Fünfecken zusammenlegen ohne Lücken",
       "beschreibung": "Marjorie Rice hat als Hausfrau neue Arten von Fünfecken entdeckt, die man lückenlos andeinander legen kann",
@@ -105,7 +105,7 @@
       "endzeit": "00:47:33"
     },
     {
-      "id": "14",
+      "folge": "14",
       "name": "Analplugs und Stiefmütter",
       "faktthema": "Gabriels Horn",
       "beschreibung": "Ein Körper, der eine unendliche Oberfläche, aber ein endliches Volumen besitzt",
@@ -113,7 +113,7 @@
       "endzeit": "00:45:00"
     },
     {
-      "id": "15",
+      "folge": "15",
       "name": "Mit dieser Folge machen wir uns leider strafbar",
       "faktthema": "Die Zahl Googol",
       "beschreibung": "Eine 1 mit einhundert 0-en. Google ist danach benannt. Ihr Firmensitz heißt Googleplex, benannt nach der Zahl googolplex. Eine 1 mit googol-vielen 0-en. +Größenvergleich",
@@ -121,7 +121,7 @@
       "endzeit": "00:58:24"
     },
     {
-      "id": "16",
+      "folge": "16",
       "name": "Warum ihr Hoes seid <3",
       "faktthema": "Fermats letzter Satz",
       "beschreibung": "a^n+b^n=c^n gilt nur für n=1 und n=2 (Pythagoras)",
@@ -129,7 +129,7 @@
       "endzeit": "01:01:42"
     },
     {
-      "id": "17",
+      "folge": "17",
       "name": "Wir wollen näher an euren  Müttern sein",
       "faktthema": "Jus kleine Facts",
       "beschreibung": "Avocado bedeutet Hoden. Menschen können weiter springen als Pferde. Samsung hat einen Roboter in Form eines Gesäßes, um Handys auf Stabilität zu testen. Lego stellt die meisten Reifen her.",
@@ -137,7 +137,7 @@
       "endzeit": "00:49:20"
     },
     {
-      "id": "18",
+      "folge": "18",
       "name": "Zerstörung der Coronaviren",
       "faktthema": "Die krasseste Zahl",
       "beschreibung": "Die 73 kann in verschiedenen Schreibweisen als besonders bezeichnet werden (Beweis der Sheldon-Vermutung)",
@@ -145,7 +145,7 @@
       "endzeit": "01:07:36"
     },
     {
-      "id": "19",
+      "folge": "19",
       "name": "Darf man sowas über Religion sagen?",
       "faktthema": "Warum Lobbyhoes überall die 37 sehen",
       "beschreibung": "Möglichkeiten sind: 1. ein Glaube an eine höhere Bedeutung der Zahl. 2. Man fokussiert sich mehr auf die Zahl, als auf andere und ignoriert diese 3. Es wird gezielt nach Bestätigung gesucht.",
@@ -153,7 +153,7 @@
       "endzeit": "01:01:49"
     },
     {
-      "id": "20",
+      "folge": "20",
       "name": "Im Bordell erkannt :/",
       "faktthema": "Wie wurde Pi herausgefunden?",
       "beschreibung": "Zuerst probierte man Näherungen mit Polygonen, dann kam Newton und fand eine bessere Methode.",
@@ -161,7 +161,7 @@
       "endzeit": "01:10:36"
     },
     {
-      "id": "21",
+      "folge": "21",
       "name": "Lehrer behandelt Schülerinnen wie Hunde?? o_O",
       "faktthema": "Pi sollte auf 3,2 festgelegt werden",
       "beschreibung": "Edward J. Goodwin wollte Pi gesetzmäßig auf 3,2 festlegen lassen, um sich das patentieren lassen zu können.",
@@ -169,7 +169,7 @@
       "endzeit": "01:28:49"
     },
     {
-      "id": "22",
+      "folge": "22",
       "name": "Warum Schweizer jetzt Steine nach uns werfen",
       "faktthema": "Zipfsches Gesetz",
       "beschreibung": "ein Modell, mit dessen Hilfe man bei bestimmten Größen, die in eine Rangfolge gebracht werden, deren Wert aus ihrem Rang abschätzen kann.",
@@ -177,7 +177,7 @@
       "endzeit": "01:03:51"
     },
     {
-      "id": "23",
+      "folge": "23",
       "name": "Unsere letzte Folge :)",
       "faktthema": "Computer können manchmal nicht zählen",
       "beschreibung": "Kosmische Strahlung kann beim Treffen eines PCs ein Bit flippen und dieser ändert den Wert. Oder Server sind zu langsam.",
@@ -185,7 +185,7 @@
       "endzeit": "01:08:48"
     },
     {
-      "id": "24",
+      "folge": "24",
       "name": "\"Ja dann, Hose  runter\" sagte sie...",
       "faktthema": "",
       "beschreibung": "",
@@ -193,7 +193,7 @@
       "endzeit": "00:00:00"
     },
     {
-      "id": "25",
+      "folge": "25",
       "name": "Wer hat die Vorhaut von Jesus geklaut?",
       "faktthema": "",
       "beschreibung": "",
@@ -201,7 +201,7 @@
       "endzeit": "00:00:00"
     },
     {
-      "id": "26",
+      "folge": "26",
       "name": "Darf man solche Inzest-Jokes noch machen?",
       "faktthema": "Ramanujan das Mathe-Wunder",
       "beschreibung": "Ramanujan hat eine Formelsammlung gefunden und hat daraus weitere Formeln erfunden, von denen der Großteil neue Entdeckungen waren",
@@ -209,7 +209,7 @@
       "endzeit": "01:09:07"
     },
     {
-      "id": "27",
+      "folge": "27",
       "name": "Nur ich gucke diese nackte Oma an",
       "faktthema": "Unendlich ist keine Zahl sondern ein Konzept",
       "beschreibung": "Visualisierung anhand von Hilberts Hotel",
@@ -217,7 +217,7 @@
       "endzeit": "00:58:21"
     },
     {
-      "id": "28",
+      "folge": "28",
       "name": "Sorry an alle Lobbyhoes",
       "faktthema": "Kein Fact",
       "beschreibung": "",
@@ -225,7 +225,7 @@
       "endzeit": "00:00:00"
     },
     {
-      "id": "29",
+      "folge": "29",
       "name": "Corona Ju wird doch nicht Vater",
       "faktthema": "Größenverhältnisse von Unendlichkeiten (aleph number)",
       "beschreibung": "Unendlichkeiten reeller Zahlen sind größer als rationale Unendlichkeiten",
@@ -233,7 +233,7 @@
       "endzeit": "00:58:39"
     },
     {
-      "id": "30",
+      "folge": "30",
       "name": "Valentinstag-Special: Dating & S3x Fails von euch",
       "faktthema": "Kein Fact",
       "beschreibung": "",
@@ -241,7 +241,7 @@
       "endzeit": "00:00:00"
     },
     {
-      "id": "31",
+      "folge": "31",
       "name": "Send nudes Geburtsurkunde",
       "faktthema": "Kein Fact",
       "beschreibung": "",
@@ -249,7 +249,7 @@
       "endzeit": "00:00:00"
     },
     {
-      "id": "32",
+      "folge": "32",
       "name": "Auf der Suche nach Männlichkeit",
       "faktthema": "die Enigma Verschlüsselungsmaschine",
       "beschreibung": "Nachrichten wurden damit im zweiten ww verschlüsselt und es wurde eine Entschlüsselungsmaschine gebaut",
@@ -257,7 +257,7 @@
       "endzeit": "01:01:14"
     },
     {
-      "id": "33",
+      "folge": "33",
       "name": "Ihr wollt Beef? Ihr bekommt Beef...",
       "faktthema": "Menschen sind kacke in Zufälligkeiten",
       "beschreibung": "Menschen haben immer einen Bezug zu dem vermeintlich zufälligem Gedanken",
@@ -265,7 +265,7 @@
       "endzeit": "00:53:45"
     },
     {
-      "id": "34",
+      "folge": "34",
       "name": "Mein Kitzler ist größer als dein Schwanz, du Loser",
       "faktthema": "Gehen Youtube die Möglichkeiten für URLs aus?",
       "beschreibung": "64^11= ca. 73 Trillionen Möglichkeiten -> mehr als genug",
@@ -273,7 +273,7 @@
       "endzeit": "01:00:43"
     },
     {
-      "id": "35",
+      "folge": "35",
       "name": " Diese Oma wird morgen geschubst O_o",
       "faktthema": "Egocentric bias",
       "beschreibung": "Dinge, die man selbst tut, überschätzt man mehr als Ursachen von Dingen",
@@ -281,7 +281,7 @@
       "endzeit": "01:11:34"
     },
     {
-      "id": "36",
+      "folge": "36",
       "name": "Klon-Handjob = Safe",
       "faktthema": "Leben wir in einer Simulation?",
       "beschreibung": "1.Fall. Menschen sterben, bevor es möglich ist, 2. Keiner hat Bock auf Simulationen oder 3. Wir leben in einer Simulation",
@@ -289,7 +289,7 @@
       "endzeit": "01:05:20"
     },
     {
-      "id": "37",
+      "folge": "37",
       "name": "Safe kassiere ich dafür jetzt auch ne Schelle †",
       "faktthema": "Fermi Paradoxon",
       "beschreibung": "Wir haben keine Aliens entdeckt, obwohl es Möglichkeiten für anderes Leben gibt",
@@ -297,7 +297,7 @@
       "endzeit": "01:00:45"
     },
     {
-      "id": "38",
+      "folge": "38",
       "name": "Sie gab mir Starthilfe beim Kotzen - bäh.",
       "faktthema": "Das kann doch kein Zufall sein…",
       "beschreibung": "Etwas wird als kein Zufall betitelt, da Menschen in Informationen Muster erkennen. Noch dazu erkennt man eher eine Bestätigung, als ein Widerspruch und wertet diese stärker. Wenn etwas im Einzelfall unwahrscheinlich ist, ist es aufs Allgemeine sehr wahrscheinlich",
@@ -305,7 +305,7 @@
       "endzeit": "01:15:33"
     },
     {
-      "id": "39",
+      "folge": "39",
       "name": "Wir alle haben kleine NeoN4z!s im Blut",
       "faktthema": "Geschichte der Lichtgeschwindigkeit",
       "beschreibung": "Hippolyte Fizeau hat mit einem Zahnrad und einem Spiegel die Lichtgeschwindigkeit sehr nahe bestimmt. Sie ist außerdem konstant",
@@ -313,7 +313,7 @@
       "endzeit": "01:10:21"
     },
     {
-      "id": "40",
+      "folge": "40",
       "name": "Angina Merkel ist 27 Schwanz groß",
       "faktthema": "Wer sagt, was ein Meter ist",
       "beschreibung": "Der Meter ist abgeleitet von Strahlung eines bestimmten Atoms. Die ist immer gleich",
@@ -321,7 +321,7 @@
       "endzeit": "01:06:34"
     },
     {
-      "id": "41",
+      "folge": "41",
       "name": "Sex mit Lobbyhoes  > > > ",
       "faktthema": "Das Großvater-Paradoxon",
       "beschreibung": "Pardoxon, das sich mit Änderungen der Zeitlinie bei Zeitreisen beschäftigt",
@@ -329,7 +329,7 @@
       "endzeit": "00:58:17"
     },
     {
-      "id": "42",
+      "folge": "42",
       "name": "Pastor shootet auf Kinder",
       "faktthema": "Schaltjahre",
       "beschreibung": "Die Römer hatten 10 Monate, haben zwei dazugenommen und bei dem einem mal ein paar mehr und mal ein paar weniger Tage gezählt",
@@ -337,7 +337,7 @@
       "endzeit": "00:53:20"
     },
     {
-      "id": "43",
+      "folge": "43",
       "name": "Böhmi wir sind clean, Ehrenwort!!!",
       "faktthema": "Generieren von Informationen durch einen Brute-Force Ansatz",
       "beschreibung": "Eine Bücherei in der jede mögliche Zeichenfolge generiert werden kann und eine Festplatte auf der jede mögliche Melodie generiert wird",
@@ -345,7 +345,7 @@
       "endzeit": "01:04:09"
     },
     {
-      "id": "44",
+      "folge": "44",
       "name": "Eichelkäse am Hodensack",
       "faktthema": "Summe aller natürlichen Zahlen",
       "beschreibung": "Die Summe aller natürlichen Zahlen ist -1/12",

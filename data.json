@@ -6,7 +6,8 @@
       "faktthema": "",
       "beschreibung": "",
       "startzeit": "00:00:00",
-      "endzeit": "00:00:00"
+      "endzeit": "00:00:00",
+      "code": "42X47cqhqvxrAFIbBQS5g2"
     },
     {
       "folge": "2",
@@ -14,7 +15,8 @@
       "faktthema": "",
       "beschreibung": "",
       "startzeit": "00:00:00",
-      "endzeit": "00:00:00"
+      "endzeit": "00:00:00",
+      "code": "44YlsfYiLVB0OlNAeaQh68"
     },
     {
       "folge": "3",
@@ -22,7 +24,8 @@
       "faktthema": "(über-)abzählbare Unendlichkeit",
       "beschreibung": "Es existieren Unendlichkeiten die größer sind als andere Unendlichkeiten",
       "startzeit": "00:11:06",
-      "endzeit": "00:11:50"
+      "endzeit": "00:11:50",
+      "code": "3Vrl7bt7tL77iQYpwVwM3K"
     },
     {
       "folge": "4",
@@ -30,7 +33,8 @@
       "faktthema": "Gödelscher Unvollständigkeitssatz",
       "beschreibung": "Es gibt in jedem Mathematischen System Ausagen, die nicht bewiesen und auch nicht widerlegt werden können.",
       "startzeit": "00:38:50",
-      "endzeit": "00:42:31"
+      "endzeit": "00:42:31",
+      "code": "6wo1yhYid01lstGMswpUCi"
     },
     {
       "folge": "5",
@@ -38,7 +42,8 @@
       "faktthema": "52!",
       "beschreibung": "Fakultät erklärt am Beispiel der Kombinationsmöglichkeiten eines Kartenspiels",
       "startzeit": "00:27:57",
-      "endzeit": "00:29:55"
+      "endzeit": "00:29:55",
+      "code": "51Z7lK1XKBl19PGAQ3O0bk"
     },
     {
       "folge": "6",
@@ -46,7 +51,8 @@
       "faktthema": "Sampling bias am Beispiel des Freundschaftsparadox",
       "beschreibung": "Der durchschnittliche Facebook Freund hat mehr Freunde als der durchschnittliche Facebook User",
       "startzeit": "00:26:57",
-      "endzeit": "00:31:42"
+      "endzeit": "00:31:42",
+      "code": "2H2MyhwTuNS2cFxpIrZGIN"
     },
     {
       "folge": "7",
@@ -54,7 +60,8 @@
       "faktthema": "Satz des Pythagoras geklaut?",
       "beschreibung": "Die Griechen haben lediglich den berühmten Satz zum ersten mal allgemein bewiesen. Euklied war hierbei der erste bekannte.",
       "startzeit": "00:22:37",
-      "endzeit": "00:26:17"
+      "endzeit": "00:26:17",
+      "code": "7zRtH3sUo15Rlpl7jWZXj7"
     },
     {
       "folge": "8",
@@ -62,7 +69,8 @@
       "faktthema": "Millennium-Probleme / die Poincaré-Vermutung",
       "beschreibung": "Jede einfach zusammenhängende, kompakte, unberandete, 3-dimensionale Mannigfaltigkeiten ist homöomorph  zur 3-Sphäre.",
       "startzeit": "00:47:57",
-      "endzeit": "00:57:42"
+      "endzeit": "00:57:42",
+      "code": "71KJlTwc6jpIe2k2pJQ4jt"
     },
     {
       "folge": "9",
@@ -70,7 +78,8 @@
       "faktthema": "Satz von Borsuk-Ulam",
       "beschreibung": "Zwei Punkte die in genau entgegengesetzten Richtungen vom Mittelpunkt einer n-Sphäre in den n-dimensionalen euklidischen Raum entfehrnt liegen, sind bei stetigen Funktionen gleich.",
       "startzeit": "00:20:45",
-      "endzeit": "00:24:57"
+      "endzeit": "00:24:57",
+      "code": "3904JJsYA3E1beykLMSTS9"
     },
     {
       "folge": "10",
@@ -78,7 +87,8 @@
       "faktthema": "Survivorship Bias",
       "beschreibung": "Erfolgreiche Zustände sind stärker sichtbar sind als nicht erfolgreiche und werden deshalb systemtisch überschätzt.",
       "startzeit": "00:49:00",
-      "endzeit": "00:55:33"
+      "endzeit": "00:55:33",
+      "code": "5wICQ3MKQtFiYQQ7NWdNhB"
     },
     {
       "folge": "11",
@@ -86,7 +96,8 @@
       "faktthema": "Visualisierung der Fakultät von 52",
       "beschreibung": "Visualisierung der Fakultät von 52",
       "startzeit": "00:40:28",
-      "endzeit": "00:48:30"
+      "endzeit": "00:48:30",
+      "code": "3O19YWz6C6RRAbET61iBiW"
     },
     {
       "folge": "12",
@@ -94,7 +105,8 @@
       "faktthema": "Fixpunktsatz von Banach",
       "beschreibung": "Auf einer Karte der Umgebung gibt es einen Punkt, der mit dem direkt darunter liegenden Punkt in der realen Welt übereinstimmt.",
       "startzeit": "00:41:47",
-      "endzeit": "00:48:20"
+      "endzeit": "00:48:20",
+      "code": "1hBhQM3Arz0Yi5irttqMCl"
     },
     {
       "folge": "13",
@@ -102,7 +114,8 @@
       "faktthema": "Fliesen in Fünfecken zusammenlegen ohne Lücken",
       "beschreibung": "Marjorie Rice hat als Hausfrau neue Arten von Fünfecken entdeckt, die man lückenlos andeinander legen kann",
       "startzeit": "00:38:09",
-      "endzeit": "00:47:33"
+      "endzeit": "00:47:33",
+      "code": "0IlRXGnkqnWZro8ruY3t5r"
     },
     {
       "folge": "14",
@@ -110,7 +123,8 @@
       "faktthema": "Gabriels Horn",
       "beschreibung": "Ein Körper, der eine unendliche Oberfläche, aber ein endliches Volumen besitzt",
       "startzeit": "00:40:06",
-      "endzeit": "00:45:00"
+      "endzeit": "00:45:00",
+      "code": "4lPTPLPb7twZf83LYVixY6"
     },
     {
       "folge": "15",
@@ -118,7 +132,8 @@
       "faktthema": "Die Zahl Googol",
       "beschreibung": "Eine 1 mit einhundert 0-en. Google ist danach benannt. Ihr Firmensitz heißt Googleplex, benannt nach der Zahl googolplex. Eine 1 mit googol-vielen 0-en. +Größenvergleich",
       "startzeit": "00:53:41",
-      "endzeit": "00:58:24"
+      "endzeit": "00:58:24",
+      "code": "5rpDiA30jT4gtvtpOYNqIe"
     },
     {
       "folge": "16",
@@ -126,7 +141,8 @@
       "faktthema": "Fermats letzter Satz",
       "beschreibung": "a^n+b^n=c^n gilt nur für n=1 und n=2 (Pythagoras)",
       "startzeit": "00:53:44",
-      "endzeit": "01:01:42"
+      "endzeit": "01:01:42",
+      "code": "3PL49YhHUus0zMJPmBNHZR"
     },
     {
       "folge": "17",
@@ -134,7 +150,8 @@
       "faktthema": "Jus kleine Facts",
       "beschreibung": "Avocado bedeutet Hoden. Menschen können weiter springen als Pferde. Samsung hat einen Roboter in Form eines Gesäßes, um Handys auf Stabilität zu testen. Lego stellt die meisten Reifen her.",
       "startzeit": "00:42:10",
-      "endzeit": "00:49:20"
+      "endzeit": "00:49:20",
+      "code": "1lZnHtjuBhZOoE7A4UiKg2"
     },
     {
       "folge": "18",
@@ -142,7 +159,8 @@
       "faktthema": "Die krasseste Zahl",
       "beschreibung": "Die 73 kann in verschiedenen Schreibweisen als besonders bezeichnet werden (Beweis der Sheldon-Vermutung)",
       "startzeit": "00:58:14",
-      "endzeit": "01:07:36"
+      "endzeit": "01:07:36",
+      "code": "2Ni5wnkBHWpkknoiaNqMTs"
     },
     {
       "folge": "19",
@@ -150,7 +168,8 @@
       "faktthema": "Warum Lobbyhoes überall die 37 sehen",
       "beschreibung": "Möglichkeiten sind: 1. ein Glaube an eine höhere Bedeutung der Zahl. 2. Man fokussiert sich mehr auf die Zahl, als auf andere und ignoriert diese 3. Es wird gezielt nach Bestätigung gesucht.",
       "startzeit": "00:49:39",
-      "endzeit": "01:01:49"
+      "endzeit": "01:01:49",
+      "code": "5WVSXyKyGnijOmAjisngdK"
     },
     {
       "folge": "20",
@@ -158,7 +177,8 @@
       "faktthema": "Wie wurde Pi herausgefunden?",
       "beschreibung": "Zuerst probierte man Näherungen mit Polygonen, dann kam Newton und fand eine bessere Methode.",
       "startzeit": "00:58:00",
-      "endzeit": "01:10:36"
+      "endzeit": "01:10:36",
+      "code": "4HeKz3m9ufdELILopv32Il"
     },
     {
       "folge": "21",
@@ -166,7 +186,8 @@
       "faktthema": "Pi sollte auf 3,2 festgelegt werden",
       "beschreibung": "Edward J. Goodwin wollte Pi gesetzmäßig auf 3,2 festlegen lassen, um sich das patentieren lassen zu können.",
       "startzeit": "01:20:16",
-      "endzeit": "01:28:49"
+      "endzeit": "01:28:49",
+      "code": "608s0wwioaBWfEFboXCLMr"
     },
     {
       "folge": "22",
@@ -174,7 +195,8 @@
       "faktthema": "Zipfsches Gesetz",
       "beschreibung": "ein Modell, mit dessen Hilfe man bei bestimmten Größen, die in eine Rangfolge gebracht werden, deren Wert aus ihrem Rang abschätzen kann.",
       "startzeit": "00:51:16",
-      "endzeit": "01:03:51"
+      "endzeit": "01:03:51",
+      "code": "1jPlpgtiuKbdYCXqtQSynI"
     },
     {
       "folge": "23",
@@ -182,7 +204,8 @@
       "faktthema": "Computer können manchmal nicht zählen",
       "beschreibung": "Kosmische Strahlung kann beim Treffen eines PCs ein Bit flippen und dieser ändert den Wert. Oder Server sind zu langsam.",
       "startzeit": "00:55:25",
-      "endzeit": "01:08:48"
+      "endzeit": "01:08:48",
+      "code": "6uvh6TNvjo7pD06gWi1elp"
     },
     {
       "folge": "24",
@@ -190,7 +213,8 @@
       "faktthema": "",
       "beschreibung": "",
       "startzeit": "00:00:00",
-      "endzeit": "00:00:00"
+      "endzeit": "00:00:00",
+      "code": "3Y4zDLFQ69loKxZCBtmdrZ"
     },
     {
       "folge": "25",
@@ -198,7 +222,8 @@
       "faktthema": "",
       "beschreibung": "",
       "startzeit": "00:00:00",
-      "endzeit": "00:00:00"
+      "endzeit": "00:00:00",
+      "code": "609sVKgV3niXKGS2oUWNyQ"
     },
     {
       "folge": "26",
@@ -206,7 +231,8 @@
       "faktthema": "Ramanujan das Mathe-Wunder",
       "beschreibung": "Ramanujan hat eine Formelsammlung gefunden und hat daraus weitere Formeln erfunden, von denen der Großteil neue Entdeckungen waren",
       "startzeit": "00:56:36",
-      "endzeit": "01:09:07"
+      "endzeit": "01:09:07",
+      "code": "497fZWxa0WfEeSMW6INczK"
     },
     {
       "folge": "27",
@@ -214,7 +240,8 @@
       "faktthema": "Unendlich ist keine Zahl sondern ein Konzept",
       "beschreibung": "Visualisierung anhand von Hilberts Hotel",
       "startzeit": "00:39:39",
-      "endzeit": "00:58:21"
+      "endzeit": "00:58:21",
+      "code": "17m6e1xVKx05RmKXpCbJGl"
     },
     {
       "folge": "28",
@@ -222,7 +249,8 @@
       "faktthema": "Kein Fact",
       "beschreibung": "",
       "startzeit": "00:00:00",
-      "endzeit": "00:00:00"
+      "endzeit": "00:00:00",
+      "code": "5ckzN68XZ1U9HWD4EeMueQ"
     },
     {
       "folge": "29",
@@ -230,7 +258,8 @@
       "faktthema": "Größenverhältnisse von Unendlichkeiten (aleph number)",
       "beschreibung": "Unendlichkeiten reeller Zahlen sind größer als rationale Unendlichkeiten",
       "startzeit": "00:45:02",
-      "endzeit": "00:58:39"
+      "endzeit": "00:58:39",
+      "code": "5TnorfeIHNmKNNHtG3nmLs"
     },
     {
       "folge": "30",
@@ -238,7 +267,8 @@
       "faktthema": "Kein Fact",
       "beschreibung": "",
       "startzeit": "00:00:00",
-      "endzeit": "00:00:00"
+      "endzeit": "00:00:00",
+      "code": "2wVOaNtFZpUKyXglV5nR3E"
     },
     {
       "folge": "31",
@@ -246,7 +276,8 @@
       "faktthema": "Kein Fact",
       "beschreibung": "",
       "startzeit": "00:00:00",
-      "endzeit": "00:00:00"
+      "endzeit": "00:00:00",
+      "code": "1xwjns2dlxU2tFSYuprrJz"
     },
     {
       "folge": "32",
@@ -254,7 +285,8 @@
       "faktthema": "die Enigma Verschlüsselungsmaschine",
       "beschreibung": "Nachrichten wurden damit im zweiten ww verschlüsselt und es wurde eine Entschlüsselungsmaschine gebaut",
       "startzeit": "00:50:35",
-      "endzeit": "01:01:14"
+      "endzeit": "01:01:14",
+      "code": "56WGo0cqL2L8sUZKANFnxQ"
     },
     {
       "folge": "33",
@@ -262,7 +294,8 @@
       "faktthema": "Menschen sind kacke in Zufälligkeiten",
       "beschreibung": "Menschen haben immer einen Bezug zu dem vermeintlich zufälligem Gedanken",
       "startzeit": "00:41:31",
-      "endzeit": "00:53:45"
+      "endzeit": "00:53:45",
+      "code": "3tbnRQ0rXaE4ScZo5WolCW"
     },
     {
       "folge": "34",
@@ -270,7 +303,8 @@
       "faktthema": "Gehen Youtube die Möglichkeiten für URLs aus?",
       "beschreibung": "64^11= ca. 73 Trillionen Möglichkeiten -> mehr als genug",
       "startzeit": "00:49:52",
-      "endzeit": "01:00:43"
+      "endzeit": "01:00:43",
+      "code": "2p6Uv4L3TIpcIRPd1eGc57"
     },
     {
       "folge": "35",
@@ -278,7 +312,8 @@
       "faktthema": "Egocentric bias",
       "beschreibung": "Dinge, die man selbst tut, überschätzt man mehr als Ursachen von Dingen",
       "startzeit": "00:52:22",
-      "endzeit": "01:11:34"
+      "endzeit": "01:11:34",
+      "code": "187AfcaKMpBokqsPeoDWjje"
     },
     {
       "folge": "36",
@@ -286,7 +321,8 @@
       "faktthema": "Leben wir in einer Simulation?",
       "beschreibung": "1.Fall. Menschen sterben, bevor es möglich ist, 2. Keiner hat Bock auf Simulationen oder 3. Wir leben in einer Simulation",
       "startzeit": "00:46:42",
-      "endzeit": "01:05:20"
+      "endzeit": "01:05:20",
+      "code": "5WsJslr1eRZYpz8LWrrfTr"
     },
     {
       "folge": "37",
@@ -294,7 +330,8 @@
       "faktthema": "Fermi Paradoxon",
       "beschreibung": "Wir haben keine Aliens entdeckt, obwohl es Möglichkeiten für anderes Leben gibt",
       "startzeit": "00:48:56",
-      "endzeit": "01:00:45"
+      "endzeit": "01:00:45",
+      "code": "01wyvEHwHdJQuZ7ZN6eslS"
     },
     {
       "folge": "38",
@@ -302,7 +339,8 @@
       "faktthema": "Das kann doch kein Zufall sein…",
       "beschreibung": "Etwas wird als kein Zufall betitelt, da Menschen in Informationen Muster erkennen. Noch dazu erkennt man eher eine Bestätigung, als ein Widerspruch und wertet diese stärker. Wenn etwas im Einzelfall unwahrscheinlich ist, ist es aufs Allgemeine sehr wahrscheinlich",
       "startzeit": "´01:02:08",
-      "endzeit": "01:15:33"
+      "endzeit": "01:15:33",
+      "code": "6dgBVM5UT9IXkUPQhPROMw"
     },
     {
       "folge": "39",
@@ -310,7 +348,8 @@
       "faktthema": "Geschichte der Lichtgeschwindigkeit",
       "beschreibung": "Hippolyte Fizeau hat mit einem Zahnrad und einem Spiegel die Lichtgeschwindigkeit sehr nahe bestimmt. Sie ist außerdem konstant",
       "startzeit": "00:45:48",
-      "endzeit": "01:10:21"
+      "endzeit": "01:10:21",
+      "code": "7rezMhxcZpDp8YGvaOI3Vq"
     },
     {
       "folge": "40",
@@ -318,7 +357,8 @@
       "faktthema": "Wer sagt, was ein Meter ist",
       "beschreibung": "Der Meter ist abgeleitet von Strahlung eines bestimmten Atoms. Die ist immer gleich",
       "startzeit": "00:51:22",
-      "endzeit": "01:06:34"
+      "endzeit": "01:06:34",
+      "code": "2VJBEMxI8nJEKETsRLemDM"
     },
     {
       "folge": "41",
@@ -326,7 +366,8 @@
       "faktthema": "Das Großvater-Paradoxon",
       "beschreibung": "Pardoxon, das sich mit Änderungen der Zeitlinie bei Zeitreisen beschäftigt",
       "startzeit": "00:45:23",
-      "endzeit": "00:58:17"
+      "endzeit": "00:58:17",
+      "code": "6bYuILUJUtW0hJ1GPYT4sx"
     },
     {
       "folge": "42",
@@ -334,7 +375,8 @@
       "faktthema": "Schaltjahre",
       "beschreibung": "Die Römer hatten 10 Monate, haben zwei dazugenommen und bei dem einem mal ein paar mehr und mal ein paar weniger Tage gezählt",
       "startzeit": "00:39:43",
-      "endzeit": "00:53:20"
+      "endzeit": "00:53:20",
+      "code": "6JkZl7lxbp8mexhQuYEC6n"
     },
     {
       "folge": "43",
@@ -342,7 +384,8 @@
       "faktthema": "Generieren von Informationen durch einen Brute-Force Ansatz",
       "beschreibung": "Eine Bücherei in der jede mögliche Zeichenfolge generiert werden kann und eine Festplatte auf der jede mögliche Melodie generiert wird",
       "startzeit": "00:52:37",
-      "endzeit": "01:04:09"
+      "endzeit": "01:04:09",
+      "code": "4a1VKKkz6EiSjK9xaAnhcl"
     },
     {
       "folge": "44",
@@ -350,7 +393,8 @@
       "faktthema": "Summe aller natürlichen Zahlen",
       "beschreibung": "Die Summe aller natürlichen Zahlen ist -1/12",
       "startzeit": "01:06:34",
-      "endzeit": "01:07:27"
+      "endzeit": "01:07:27",
+      "code": "3Gq2Z7gh4EGSBzKjhyXCb7"
     }
   ]
 }

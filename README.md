@@ -1,2 +1,2 @@
 # Mathefacts
-<a href="mathe.hobbylos.online/">Mathefacts</a> aus dem Podcast Hobbylos.
+<a href="https://mathe.hobbylos.online/">Mathefacts</a> aus dem Podcast Hobbylos.

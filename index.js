@@ -2,7 +2,9 @@ dayjs.extend(window.dayjs_plugin_duration);
 dayjs.extend(window.dayjs_plugin_customParseFormat);
 
 document.addEventListener("DOMContentLoaded", () => {
-    let table = new simpleDatatables.DataTable(document.getElementById("mathefacts"));
+    let table = new simpleDatatables.DataTable("#mathefacts", {
+      perPageSelect: [10, 25, 100]
+    });
     fetch("./data.json")
         .then(data => data.json())
         .then(data => {

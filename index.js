@@ -3,6 +3,7 @@ dayjs.extend(window.dayjs_plugin_customParseFormat);
 
 document.addEventListener("DOMContentLoaded", () => {
   let host = "https://data.hobbylos.online/graphql";
+  //let host = "http://localhost:4000/graphql"
   let table = new simpleDatatables.DataTable("#mathefacts", {
     perPageSelect: [10, 25, 100]
   });

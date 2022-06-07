@@ -1,4 +1,7 @@
 # Mathefacts
+
+![Uptime Robot status](https://img.shields.io/uptimerobot/status/m791957236-f10ebe14b28882d0e1bc5cb0?style=for-the-badge)
+
 <a href="https://mathe.hobbylos.online/">Mathefacts</a> aus dem Podcast Hobbylos.
 
 # Mitmachen

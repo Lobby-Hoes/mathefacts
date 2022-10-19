@@ -1,37 +1,123 @@
 body {
-    font-family: sans-serif;
+  font-family: sans-serif;
+  font-size: 16px;
+  margin: 0 !important;
+}
+
+header {
+  background-image: url("./assets/tile.svg");
+  background-color: #4D9CB4;
+  background-size: 4%;
+  background-repeat: repeat;
+  width: 100%;
+}
+
+header img {
+  width: 70%;
+  opacity: 0.9;
+}
+
+footer {
+  padding: 1rem;
+}
+
+th:nth-child(4) {
+  width: 25% !important;
+}
+
+th:nth-child(8) {
+  width: 330px !important;
+}
+
+.container-fluid {
+  margin-top: 2rem;
+}
+
+.bademantel {
+  width: 8.3%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.dataTable-top,
+.dataTable-selector {
+  z-index: 999999999;
 }
 
 .center {
-    display: flex;
-    width: 100%;
-    justify-content: center;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.dataTable-input {
+  border: 0.01rem solid #ccc;
+}
+
+.dataTable-selector {
+  background-color: transparent;
+  border: 0.01rem solid #ccc;
+  border-radius: 0;
+}
+
+select {
+  max-width: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+@media only screen and (max-width:48rem) {
+  header img {
+    width: 180%;
+  }
+
+  .bademantel {
+    width: 15%;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
-    :root {
-        --light: #CEC9C8;
-        --dark: #222222;
-    }
+  :root {
+    --light: #CEC9C8;
+    --dark: #222222;
+  }
 
-    body, td {
-        color: var(--light);
-        background-color: var(--dark);
-    }
+  body,
+  td {
+    color: var(--light);
+    background-color: var(--dark);
+  }
 
-    .dataTable-pagination a {
-        color: var(--light);
-    }
+  .dataTable-sorter {
+    color: var(--light) !important;
+  }
 
-    .dataTable-pagination .active a, .dataTable-pagination li:hover a {
-        color: black;
-    }
+  .dataTable-pagination a {
+    color: var(--light);
+  }
 
-    .dataTable-sorter::before {
-        border-top-color: var(--light);
-    }
+  .dataTable-pagination .active a,
+  .dataTable-pagination li:hover a {
+    color: black;
+  }
 
-    .dataTable-sorter::after {
-        border-bottom-color: var(--light);
-    }
+  .dataTable-sorter::before {
+    border-top-color: var(--light);
+  }
+
+  .dataTable-sorter::after {
+    border-bottom-color: var(--light);
+  }
+
+  .dataTable-input {
+    background: var(--dark);
+    color: var(--light);
+    border: 0.01rem solid #ccc;
+  }
+
+  .dataTable-selector {
+    color: var(--light);
+  }
 }
